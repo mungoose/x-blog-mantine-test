@@ -1,0 +1,54 @@
+import { createTheme } from '@mantine/core';
+
+export const theme = createTheme({
+  colors: {
+    black: [
+        "#eef7fb",
+        "#deebf1",
+        "#b7d5e6",
+        "#8ebedb",
+        "#6dabd0",
+        "#599fcb",
+        "#4d99c9",
+        "#3e85b3",
+        "#3376a0",
+        "#040D12"
+        ],
+    teal: [
+        "#f0f9f9",
+        "#e4f0f0",
+        "#c3e1e1",
+        "#9ed0d0",
+        "#81c3c3",
+        "#6fbbbb",
+        "#64b8b7",
+        "#52a1a1",
+        "#459090",
+        "#317c7c"
+        ],
+    green: [
+        "#ebf9f2",
+        "#e0ece8",
+        "#c5d6cf",
+        "#a5bfb5",
+        "#8cab9f",
+        "#7a9f91",
+        "#709a89",
+        "#5e8576",
+        "#507768",
+        "#3f6858"
+        ],
+    contrast: [
+        "#ffecf9",
+        "#f9d7eb",
+        "#eeadd4",
+        "#e381bc",
+        "#da5ba7",
+        "#d5429a",
+        "#d33594",
+        "#bb2881",
+        "#a82073",
+        "#941364"
+        ]
+},
+});
