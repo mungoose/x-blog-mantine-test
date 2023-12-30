@@ -1,9 +1,11 @@
-import Head from '../components/Head/Head';
+import DefaultLayout from '../layouts/DefaultLayout';
 
 export default function HomePage() {
   return (
     <>
-      <Head />
+      <DefaultLayout>
+        PLACEHOLDER
+      </DefaultLayout>
     </>
   );
 }
