@@ -1,0 +1,9 @@
+.socialItem {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    margin: 5px 0;
+}
+
+.image {
+    /* display: none; */
+}

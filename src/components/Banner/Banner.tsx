@@ -1,11 +1,16 @@
 import NextImage from 'next/image';
-import { Image } from '@mantine/core';
+import { Image, BackgroundImage } from '@mantine/core';
 import classes from './Banner.module.css';
-import BannerBackground1440 from '../../../public/BannerBackground1440.png';
+import SocialMedia from '../SocialMedia/SocialMedia';
+import MarMotLogo200 from '../../../public/MarMotLogo200.png';
 
 const Banner = () => (
         <div className={classes.banner}>
-            <Image component={NextImage} priority h={120} fit="fill" src={BannerBackground1440} alt="Banner image of a red tank" />
+            <BackgroundImage src="/BannerBackground1440.webp">
+                <SocialMedia />
+                <Image component={NextImage} priority h={100} w="auto" fit="contain" src={MarMotLogo200} alt="MarMot logo" />
+                Text
+            </BackgroundImage>
         </div>
     );
 
